@@ -37,7 +37,7 @@ function wordCount(){
     characterNumber.innerHTML = numCharacters;
     
 }
-countBtn.addEventListener('click', wordCount)
+textContainer.addEventListener('input', wordCount)
 
 function resetCount(){
     textContainer.value = ""

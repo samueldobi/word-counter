@@ -1,0 +1,14 @@
+body{
+    background: #F1F1F1;
+}
+textarea{
+    box-shadow: -2px 4px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: -2px 4px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: -2px 4px 5px 0px rgba(0,0,0,0.75);
+}
+.word-display{
+    box-shadow: 2px 5px 5px 3px rgba(0,0,0,0.75);
+}
+@media only screen and (min-width : 50px) and (max-width : 280px){
+    letsgo
+}

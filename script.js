@@ -1,10 +1,10 @@
-const textContainer = document.querySelector('.text-container')
-const words = document.querySelector('.words')
-const characters = document.querySelector('.characters')
-const countBtn =  document.querySelector('.count')
-const resetBtn = document.querySelector('.reset')
-let wordNumber = document.getElementById('word-number')
-let characterNumber = document.getElementById('character-number')
+const textContainer = document.querySelector('.text-container');
+const words = document.querySelector('.words');
+const characters = document.querySelector('.characters');
+const countBtn =  document.querySelector('.count');
+const resetBtn = document.querySelector('.reset');
+let wordNumber = document.getElementById('word-number');
+let characterNumber = document.getElementById('character-number');
 
 function wordCount(){
 
@@ -45,5 +45,3 @@ function resetCount(){
     characterNumber.innerHTML = "0";
 }
 resetBtn.addEventListener('click', resetCount)
-const str = " the quick brown fox jumps over the lazy dog"
-const stringer = str.split(' ')

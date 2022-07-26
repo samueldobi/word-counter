@@ -9,6 +9,6 @@ textarea{
 .word-display{
     box-shadow: 2px 5px 5px 3px rgba(0,0,0,0.75);
 }
-@media only screen and (min-width : 50px) and (max-width : 280px){
-    letsgo
-}
+/* @media only screen and (min-width : 50px) and (max-width : 280px){
+
+} */

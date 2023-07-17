@@ -1,2 +1,2 @@
 # word-counter
-This is a word counter created with javascript
+This is a  word counter created with javascript
